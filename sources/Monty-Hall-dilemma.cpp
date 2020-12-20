@@ -18,6 +18,7 @@ int main() {
 		executeExp(i);
 	}
 	printf("°á°ú : %.2lf%%", success / (success + failed) * 100);
+	scanf("%d", n);
 }
 
 bool executeExp(int i) {
